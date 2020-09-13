@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <include layout="@layout/back"/>
+
+        <TextView
+            android:id="@+id/ipt_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间：0"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FF0000" />
+
+        <LinearLayout
+            android:id="@+id/pt_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/pt_iv_00x00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_01"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_00x01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_02"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_00x02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_03"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_00x03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_04"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_00x04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_05"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pt_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/pt_iv_01x00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_06"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_01x01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_07"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_01x02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_08"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_01x03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_09"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_01x04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_10"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pt_line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/pt_iv_02x00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_11"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_02x01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_12"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_02x02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_13"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_02x03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_14"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_02x04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_15"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pt_line4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/pt_iv_03x00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_16"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_03x01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_17"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_03x02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_18"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_03x03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_19"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_03x04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_20"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pt_line5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/pt_iv_04x00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_21"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_04x01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_22"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+            <ImageButton
+                android:id="@+id/pt_iv_04x02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_23"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_04x03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_24"
+                android:padding="0dp"
+                android:onClick="onClick"/>
+
+            <ImageButton
+                android:id="@+id/pt_iv_04x04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/biwenjun5_25"
+                android:padding="0dp"
+                android:onClick="onClick"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pt_btn_restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="restart"
+            android:layout_gravity="center"
+            android:text="戳我开始~"/>
+
+        <ImageView
+            android:id="@+id/pt_iv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/reba"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JieShaoActivity"
+    android:orientation="vertical"
+    android:background="@color/bgyellow">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/lightyellow">
+
+        <ImageView
+            android:id="@+id/jieshao_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="戳我返回哦~"
+            android:textSize="18sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         此游戏是一款简单的拼图游戏，点击图片使图片向空白区域移动,拼图成功自动显示全图并弹出恭喜对话框，可以查看完成时间，可以继续挑战本关，也可以去往下一关。\n        祝您有个愉快的拼图时间！"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/guanka_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/bg2"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/grey"
+            />
+
+        <TextView
+            android:id="@+id/jieshao_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始游戏吧~~"
+            android:layout_toRightOf="@+id/guanka_iv"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/lightblue"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
